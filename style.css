@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #6A11CB, #2575FC, #1EC8A5);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons button {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.auth-buttons .signup {
+    background-color: #A855F7;
+    border: none;
+}
+
+.auth-buttons .login {
+    background-color: white;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.cta-buttons button {
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta-buttons .start-designing {
+    background-color: white;
+    color: #333;
+    border-color: #ddd;
+}
+
+.cta-buttons .explore-launches {
+    background-color: #3C5162;
+    color: white;
+}
